@@ -1,6 +1,6 @@
 --discord.gg/boronide, code generated using luamin.js�
 print("Hello User, I'm AfxcaxiRoblox, I'm Is Owner This Script")
-print("Thank You For Use My Script, I'm Leak Source(Skid)(Faifao V2, Night Hub, ")
+print("Thank You For Use My Script, I'm Leak Source(Skid)(Faifao V2, Night Hub,")
 print("Please Join AfxcaxiRoblox's Discord")
 print("This Script Is Smooth")
 print("3")
@@ -52,7 +52,7 @@ local L_4_ = L_1_:CreateWindow({
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
-	Theme = "Aqua",
+	Theme = "Orange",
 	MinimizeKey = Enum.KeyCode.RightControl
 })
 local L_5_ = {
