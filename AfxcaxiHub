@@ -1,4 +1,4 @@
---https://discord.gg/uXmdSSnjKp, code generated using luamin.js™
+--discord.gg/boronide, code generated using luamin.js™
 
 
 
@@ -9,7 +9,7 @@ local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
 	Title = "Afxcaxi Hub",
-	SubTitle = "Blox Fruit Script",
+	SubTitle = "Skid By AfxcaxiRoblox",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
@@ -3735,7 +3735,7 @@ do
 		end
 	end)
 	if Third_Sea then
-		local L_394_ = L_5_.Main:AddSection("?? Kitsune ??")
+		local L_394_ = L_5_.Main:AddSection("🦊 Kitsune 🦊")
 		local L_395_ = L_5_.Main:AddToggle("ToggleEspKitsune", {
 			Title = "Esp Kitsune Island",
 			Default = false
