@@ -1,15 +1,11 @@
 print("Hello User, I'm AfxcaxiRoblox, I'm Is Owner This Script")
 print("Thank You For Use My Script, I'm Leak Source(Skid)")
-
-
 print("Please Join AfxcaxiRoblox's Discord")
-
 print("This Script Is Smooth")
 print("3")
 print("2")
 print("1")
 print("Start")
-
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -18,11 +14,11 @@ local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
 	Title = "Afxcaxi Hub",
-	SubTitle = "Skid By AfxcaxiRoblox",
+	SubTitle = "Creator By AfxcaxiRoblox",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
-	Theme = "Dark",
+	Theme = "Light",
 	MinimizeKey = Enum.KeyCode.RightControl
 })
 local L_5_ = {
