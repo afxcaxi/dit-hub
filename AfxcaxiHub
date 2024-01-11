@@ -25,8 +25,9 @@ spawn(function()
 end)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Afxcaxi Hub", HidePremium = false, IntroText = "AfxcaxiHub Library", SaveConfig = true, ConfigFolder = "Afxcaxi Hub"})
+local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))() 
+local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))() 
+local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 local L_4_ = L_1_:CreateWindow({
