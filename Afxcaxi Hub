@@ -6,6 +6,22 @@ print("2")
 print("1")
 print("Start Script")
 
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(1.5)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Chào M?ng Ð?n V?i Afxcaxi Hub<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Tham Gia Discord C?a AfxcaxiRoblox Ð? Có Thông Tin M?i Nh?t Nhé <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>C?m On Ðã S? D?ng Script C?a Tôi<Color=/>"):Display()
+end)
+
 assert(getrawmetatable)
     grm = getrawmetatable(game)
     setreadonly(grm, false)
