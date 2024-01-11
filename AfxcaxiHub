@@ -8,6 +8,13 @@ print("2")
 print("1")
 print("Start")
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 spawn(function() 
     repeat
         task.wait()
@@ -24,11 +31,6 @@ spawn(function()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Cảm Ơn Đã Sử Dụng Script Của Tôi<Color=/>"):Display()
 end)
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))() 
-local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))() 
-local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
----------------------------------------------------------------------------------------------------------------------------------------------
 
 local L_4_ = L_1_:CreateWindow({
 	Title = "Afxcaxi Hub",
