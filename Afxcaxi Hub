@@ -7,7 +7,6 @@ local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/re
 local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
-
 spawn(function() 
     repeat
         task.wait()
@@ -23,8 +22,6 @@ spawn(function()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Tham Gia Discord Của AfxcaxiRoblox Để Có Thông Tin Mới Nhất Nhé <Color=/>"):Display()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Cảm Ơn Đã Sử Dụng Script Của Tôi<Color=/>"):Display()
 end)
-
-
 local L_4_ = L_1_:CreateWindow({
 	Title = "Afxcaxi Hub",
 	SubTitle = "Creator By AfxcaxiRoblox",
