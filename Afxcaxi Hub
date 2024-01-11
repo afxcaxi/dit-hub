@@ -18,6 +18,7 @@ spawn(function()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Tham Gia Discord C?a AfxcaxiRoblox Ð? Có Thông Tin M?i Nh?t Nhé <Color=/>"):Display()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>C?m On Ðã S? D?ng Script C?a Tôi<Color=/>"):Display()
 end)
+
 --Join Team
 repeat wait() until game.Players
 repeat wait() until game.Players.LocalPlayer
